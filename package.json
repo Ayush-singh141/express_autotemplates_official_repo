@@ -1,0 +1,49 @@
+{
+  "name": "express-autotemplates",
+  "version": "1.0.0",
+  "description": "CLI tool to generate Express backend projects with various templates",
+  "main": "src/generator.js",
+  "bin": {
+    "express-autotemplates": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "express",
+    "cli",
+    "generator",
+    "backend",
+    "template",
+    "nodejs",
+    "scaffold"
+  ],
+  "author": "Ayush Singh <ayushsinghgaur.works@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "figlet": "^1.8.2",
+    "fs-extra": "^11.2.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^8.2.6",
+    "ora": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/express-autotemplates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/express-autotemplates/issues"
+  },
+  "homepage": "https://github.com/yourusername/express-autotemplates#readme"
+}
