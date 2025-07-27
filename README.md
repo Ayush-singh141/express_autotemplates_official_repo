@@ -121,4 +121,4 @@ MIT License - see LICENSE file for details.
 
 ---
 
-Made with ❤️ for the Express.js community
+Made with ❤️ for the Express.js community By Ayush Singh
